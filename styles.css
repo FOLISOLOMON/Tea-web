@@ -85,7 +85,6 @@ header .nav-bar .nav-links{
     gap: 40px;
     font-size: var(--font-size-m);
     text-align: center;
-    border: 1px solid red;
 }
 
 header .nav-bar .nav-links li{
@@ -114,12 +113,10 @@ header .nav-bar .logo a,.nav-links a{
     align-items: center;
     min-height: 100vh;
     color: var(--white-color);
-    border: 1px solid red;
 }
 .hero .container .heroText{
     margin-top: 60px;
     margin-left: 40px;
-    border: 1px solid red;
 }
 .hero .container .heroText h2{
     font-size: var(--font-size-xxl);
@@ -434,7 +431,7 @@ header .nav-bar .logo a,.nav-links a{
 .contact .social-media a:hover {
     color: var(--secondary-color);
 }
-/* @media screen and (max-width:1000px)  {
+@media screen and (max-width:1000px)  {
     :root{
         --font-size-s: 0.9rem;
         --font-size-n: 1rem;
@@ -674,4 +671,4 @@ header .nav-bar .logo a,.nav-links a{
         right: 25px;
         top: 30px;
     }
-} */
+}
